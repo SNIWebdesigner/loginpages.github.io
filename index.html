@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SNI WebFront-End</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Roboto&family=Roboto+Condensed:wght@300&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Roboto+Condensed:wght@300&display=swap');
         body {
             user-select: none;
@@ -29,11 +30,11 @@
         }
         
         svg {
-            width: 9em;
+            width: 20vh;
         }
         
         h1 {
-            font-size: 3em;
+            font-size: 3rem;
             text-align: center;
         }
         
@@ -45,7 +46,7 @@
             border: 1.8px solid black;
             border-radius: 15px;
             margin-top: 1em;
-            width: 45vh;
+            width: 40vh;
             text-overflow: ellipsis;
         }
         
@@ -69,11 +70,13 @@
         }
         
         p {
+            font-family: 'Roboto', sans-serif;
             margin-top: 1em;
             font-size: 1.1rem;
         }
         
         p>a {
+            font-weight: 400;
             text-decoration: none;
         }
         
@@ -110,6 +113,12 @@
             }
             100% {
                 background-color: rgba(14, 16, 185, 0.87);
+            }
+        }
+        
+        @media screen and (max-width: 768px) {
+            body {
+                padding: 1em;
             }
         }
     </style>
